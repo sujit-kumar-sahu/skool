@@ -1,0 +1,133 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-size:15px;
+}
+ #navbar
+{
+    width: 390px;
+    background-color: gray;
+    border-radius: 2px ;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    position:fixed;
+
+}
+#lis
+{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#content
+{
+   width: 50%;
+   display: flex;
+   justify-content: right;
+   flex-direction: column;
+}
+.fake
+{
+    height: 110px;
+}
+.nav-li
+{
+    padding: 1px 10px ;
+    display: flex; 
+}
+#logo
+{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;   
+}
+
+/*-----------------------------------------------middle-----------------------------------------*/
+
+#main-box
+{
+   background-image:  url("city.jpg"); 
+   width: 320px;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 90px 50px 100px 20px;
+}
+#st-half img
+{
+  border-radius: 100px;
+  width: 70px;
+  height: 70px;
+  position: relative; 
+  right:3px;
+}
+#nd-half
+{
+  text-align: center;
+  padding-right: 70px;
+  padding-left: 10px;
+  background-color: black;
+  font-size:15px;
+  color:white;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    border: 0px solid red;
+    width: 390px;
+}
+.items
+{
+    border: 0px solid green;
+    height: 100px;
+    width: 390px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.topic-head
+{
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width:65%;
+    text-align: center;
+    border-top-right-radius:200px;
+    background-color: lawngreen;
+}
+.items a
+{
+    width: 30%;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.e
+{
+    flex-direction: row-reverse;
+}
+h4
+{
+    width: 50%;
+    height: 100%;
+    border: 0px blue solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a
+{
+ text-decoration: none;   
+}
